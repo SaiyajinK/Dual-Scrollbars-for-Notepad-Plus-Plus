@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"><img width="341" height="58" alt="dual_scrollbars" src="https://github.com/user-attachments/assets/56bd0d9c-77f8-4e14-9737-9b857a6279a3" /> <img width="129" height="75" alt="dsnpp_space" src="https://github.com/user-attachments/assets/b2a0949b-7f3c-4498-a473-73f9a7743d39" /></p>
+<p align="center"><img width="341" height="58" alt="dual_scrollbars" src="https://github.com/user-attachments/assets/08fcd3b4-bfdf-4ce9-ad51-35a756835853" /> <img width="129" height="75" alt="dsnpp_space" src="https://github.com/user-attachments/assets/6beadd41-116d-454b-8ccf-8a9e4947517d" /></p>
 <p align="center">for Notepad++.</p>
 
 <p align="center">

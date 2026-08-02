@@ -48,3 +48,55 @@
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
+
+### ✅ Manual Installation :
+
+| Step | Action |
+|:---:|---|
+| 1️⃣ | Download the latest release [here](../../releases/latest) |
+| 2️⃣ | Create a folder named `DualScrollbars` inside `C:\Program Files\Notepad++\plugins\` |
+| 3️⃣ | Extract the archive and copy `DualScrollbars.dll` into the `DualScrollbars` folder |
+| 4️⃣ | Restart Notepad++, then enable the plugin from `Plugins > Dual Scrollbars > Displays a double scrollbar` |
+
+<br><ins>NOTE</ins> : The plugin is currently available through manual installation only.<br>
+A request will be submitted for inclusion in the official Notepad++ Plugins Admin list.
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### 💻 Compatibility :
+
+| Platform | Status |
+|---|---|
+| Notepad++ 64-bit | ✅ Supported |
+| Notepad++ 32-bit | ❌ Not supported |
+| Windows | ✅ Supported |
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### 🛠️ Support :
+
+| Type | Where |
+|---|---|
+| 🐞 Bug reports | Open an [issue](../../issues) on GitHub |
+| 💡 Suggestions | Submit an [issue](../../issues) with your idea |
+| 💬 Help and questions | Join the [Discord server](https://discord.gg/2qnAq8B69u) |
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>
+
+### 💡 Why I Created This Plugin :
+
+I use Notepad++ every day. I only have one monitor, and I regularly use several development tools for personal projects and testing, especially for the Steam skin that I have been actively developing for over three years.
+
+Many of these tools are set to stay always on top, which can sometimes make navigating through the Notepad++ window a real hassle.
+
+Adding a scrollbar on both sides improves the overall user experience and makes navigation more comfortable, without changing the core appearance of Notepad++.
+
+<p align="center">
+  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
+</p>

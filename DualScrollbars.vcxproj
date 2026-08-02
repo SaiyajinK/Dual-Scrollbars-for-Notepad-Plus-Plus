@@ -61,5 +61,8 @@
   <ItemGroup>
     <ClCompile Include="src\DualScrollbars.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\DualScrollbarsVersion.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

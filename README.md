@@ -42,7 +42,7 @@
 
 ### 📸 Preview :
 
-| <img width="" height="" alt="" src="" /> |
+| <img width="800" height="492" alt="image" src="https://github.com/user-attachments/assets/61b504df-7c1e-46bb-89b6-ee8f06af9ea2" /> |
 | ------ |
 
 <p align="center">

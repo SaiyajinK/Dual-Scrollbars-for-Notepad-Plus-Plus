@@ -88,15 +88,3 @@ A request will be submitted for inclusion in the official Notepad++ Plugins Admi
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
 </p>
-
-### 💡 Why I Created This Plugin :
-
-I use Notepad++ every day. I only have one monitor, and I regularly use several development tools for personal projects and testing, especially for the Steam skin that I have been actively developing for over three years.
-
-Many of these tools are set to stay always on top, which can sometimes make navigating through the Notepad++ window a real hassle.
-
-Adding a scrollbar on both sides improves the overall user experience and makes navigation more comfortable, without changing the core appearance of Notepad++.
-
-<p align="center">
-  <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">
-</p>

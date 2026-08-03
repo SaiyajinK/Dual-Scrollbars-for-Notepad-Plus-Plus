@@ -59,7 +59,7 @@
 | 4️⃣ | Restart Notepad++, then enable the plugin from `Plugins > Dual Scrollbars > Displays a double scrollbar` |
 
 <br><ins>NOTE</ins> : The plugin is currently available through manual installation only.<br>
-A request will be submitted for inclusion in the official Notepad++ Plugins Admin list.
+A [request](https://github.com/notepad-plus-plus/nppPluginList/pull/1148) is submitted for inclusion in the official Notepad++ Plugins Admin list.
 
 <p align="center">
   <img width="700" height="1" src="https://via.placeholder.com/700x1/262626/262626">

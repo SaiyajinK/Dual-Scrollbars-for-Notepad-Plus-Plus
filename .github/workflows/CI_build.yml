@@ -1,0 +1,44 @@
+name: CI_build
+
+on: [push, pull_request]
+
+jobs:
+  build_windows:
+
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        build_configuration: [Release, Debug]
+        build_platform: [x64, ARM64, Win32]
+
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: generate cmake
+      run: |
+           mkdir _build
+           cd _build
+           cmake -G "Visual Studio 18 2026" -A ${{ matrix.build_platform }} ..
+
+    - name: build cmake
+      run: |
+           cd _build
+           cmake --build . --config ${{ matrix.build_configuration }}
+
+    - name: zip artifacts
+      if: matrix.build_configuration == 'Release'
+      run: 7z a DualScrollbars_${{ matrix.build_platform }}.zip .\_build\Release\DualScrollbars.dll
+
+    - name: Archive artifacts
+      if: matrix.build_configuration == 'Release'
+      uses: actions/upload-artifact@v7
+      with:
+          name: DualScrollbars_${{ matrix.build_platform }}.zip
+          path: DualScrollbars_${{ matrix.build_platform }}.zip
+
+    - name: Release for artifacts
+      uses: softprops/action-gh-release@v3
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+          files: DualScrollbars_${{ matrix.build_platform }}.zip

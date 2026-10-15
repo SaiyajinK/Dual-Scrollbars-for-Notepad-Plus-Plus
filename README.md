@@ -70,7 +70,8 @@ A [request](https://github.com/notepad-plus-plus/nppPluginList/pull/1148) is sub
 | Platform | Status |
 |---|---|
 | Notepad++ 64-bit | ✅ Supported |
-| Notepad++ 32-bit | ❌ Not supported |
+| Notepad++ 32-bit | ✅ Supported |
+| Notepad++ ARM64 | ✅ Supported ⚠️ (Not yet tested) |
 | Windows | ✅ Supported |
 
 <p align="center">
